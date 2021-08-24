@@ -23,7 +23,7 @@ username : root<br>
 password: blank<br>
 Create a database called "binancefutures"<br>
 import the db file database.sql into binancefutures schema.
-Under c >> XAMPP >> HTDOCS paste the entire files.<br>
+Under c >> XAMPP >> HTDOCS >>cryptofutures paste the entire files.<br>
 
 <h1>Running The bot in chrome</h1><br>
 Bot will not work without the insert of this command in the run command:<br>
@@ -104,6 +104,7 @@ DOT address:<br>
 ETH address:<br>
 0xd35a8505c6b9750913ebef8f158baa83ab51df57<br>
 I really apperciate any donation 😘<br>
+
 
 
 
