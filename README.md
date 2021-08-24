@@ -72,7 +72,7 @@ Check User sharing position<br>
 Time interval : All (recommended)
 Click on any trader you like url will look like this :<br>
 https://www.binance.com/en/futures-activity/leaderboard?type=myProfile&tradeType=PERPETUAL&encryptedUid=9745A111F31F836D6D2E9F758DA3A07B<br>
-I really like this trader and I am mirroring it on my own account (100% growth in 2 months only)<br>
+I really like this trader and I am mirroring it on my own account (65% growth in 3 months only)<br>
 paste the string after "encryptedUid=" into param_copyingsrc
 <br>
 param_max_loss_percentage : I recommend the default I set which is 5<br>
@@ -82,7 +82,7 @@ param_on_loss_freeze_hours: 4(default)<br>
 param_on_client_close_all_trades_freeze_hours : 2 (default)<br>
 <br>
 NB: robot will freeze x hours when SL or TP are hitten <br>
-Make sure that under Features >> Preferences : Position Mode Setting is set to One Way mode not Hedge Mode<br>
+Make sure that in binance platform (mobile app mainly) under Features >> Preferences : Position Mode Setting is set to One Way mode not Hedge Mode<br>
 <br>
 After the setup of the admin panel , you can logout and then login and choose the vps mode<br>
 Enable to show popup at to right of chrome so bot will start copying the positions , and leave the vps mode running on vps.<br>
@@ -104,7 +104,3 @@ DOT address:<br>
 ETH address:<br>
 0xd35a8505c6b9750913ebef8f158baa83ab51df57<br>
 I really apperciate any donation 😘<br>
-
-
-
-
