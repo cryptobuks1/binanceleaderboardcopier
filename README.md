@@ -1,0 +1,2 @@
+# binanceleaderboardcopier
+Binance Leaderboard Copier
