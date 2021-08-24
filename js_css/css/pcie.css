@@ -1,0 +1,723 @@
+#clock
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 18px;
+    BORDER-LEFT: 0px;
+    COLOR: #000000;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6e9f3
+}
+.celllbl
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tblhead1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    /*BACKGROUND-COLOR: #0e2571*/
+    background: #007acc;
+}
+.tblhead2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    /*BACKGROUND-COLOR: #6a759a*/
+    background: #007acc;
+}
+.tbldivider
+{
+    BACKGROUND-COLOR: #6a759a
+}
+.tblftrborder
+{
+    BACKGROUND-COLOR: #454545
+}
+.tblcollbl
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #6a759a;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.tblrowlbl
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.tblcell
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.tblcellcenter
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-ALIGN: center
+}
+.tblcollblcenter
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #6a759a;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-ALIGN: center
+}
+.tblcellsub
+{
+    FONT-WEIGHT: normal;
+    COLOR: #929292;
+    BACKGROUND-COLOR: #ffffff
+}
+.tblcollblright
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #6a759a;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-ALIGN: right
+}
+.tblcellright
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-ALIGN: right
+}
+.frmhead1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.frmlabel
+{
+    FONT-SIZE: 12px;
+    MARGIN-LEFT: 3px;
+    COLOR: #000000;
+    MARGIN-RIGHT: 3px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.frmfield
+{
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.frmfielddesc
+{
+    FONT-SIZE: 12px;
+    COLOR: #929292;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.frmlabel2
+{
+    FONT-SIZE: 12px;
+    COLOR: #929292;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.poptxt
+{
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.pophead
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.popnotehead
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.poplink
+{
+    FONT-SIZE: 12px;
+    COLOR: #0e2571;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.poplinkhdr
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #0e2571;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.popftr
+{
+    FONT-SIZE: 12px;
+    COLOR: #929292;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.paratext
+{
+    FONT-SIZE: 11px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.paratext_print_rightcolfixed
+{
+    FONT-SIZE: 11px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 100%;
+}
+.paratext12
+{
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.parahead
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.paraftr
+{
+    FONT-SIZE: 11px;
+    COLOR: #929292;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.logocell
+{
+    FONT-SIZE: 8pt;
+    COLOR: white;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: #0e2571
+}
+.pgtitle
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 18px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.pgpath
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.pgdesc
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: right
+}
+.pgbg
+{
+    /*BACKGROUND-COLOR: #e6e9f3;*/
+   background: #ffffff url('/img/gray_jean.png') repeat;
+}
+.pgtopbg
+{
+    BACKGROUND-COLOR: #ffffff
+}
+.pgfooter
+{
+    FONT-SIZE: 11px;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: right
+}
+.popfooter
+{
+    FONT-SIZE: 11px;
+    BACKGROUND-IMAGE: url('/img/bg_footer.gif');
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #cccccc;
+    TEXT-ALIGN: right
+}
+.logopad
+{
+    BACKGROUND-COLOR: #0e2571
+}
+.poptitle
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.poplogo
+{
+    BACKGROUND-COLOR: #0e2571
+}
+.pgpathlink
+{
+    FONT-SIZE: 11px;
+    COLOR: #6a759a;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.paratexthead
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tintbg
+{
+    BACKGROUND-COLOR: #ffffff
+}
+.tinttblcell
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6e9f3
+}
+.tinttblcellcenter
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6e9f3;
+    TEXT-ALIGN: center
+}
+.tinttblcellright
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6e9f3;
+    TEXT-ALIGN: right
+}
+.tinttblcellsub
+{
+    FONT-WEIGHT: normal;
+    COLOR: #888888;
+    BACKGROUND-COLOR: #e6e9f3
+}
+.tinttblcollbl
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6e9f3
+}
+.tinttblcollblcenter
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6e9f3;
+    TEXT-ALIGN: center
+}
+.tinttblcollblright
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6e9f3;
+    TEXT-ALIGN: right
+}
+.tinttbldivider
+{
+    BACKGROUND-COLOR: #6a759a
+}
+.tinttblrowlbl
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6e9f3
+}
+.tintcellbl
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tintfrmlabel
+{
+    FONT-SIZE: 12px;
+    MARGIN-LEFT: 3px;
+    COLOR: #000000;
+    MARGIN-RIGHT: 3px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6e9f3
+}
+.tintfrmfielddesc
+{
+    FONT-SIZE: 12px;
+    COLOR: #888888;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6e9f3
+}
+.tintfrmlabel2
+{
+    FONT-SIZE: 12px;
+    COLOR: #888888;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6e9f3
+}
+A
+{
+    COLOR: #0e2571
+}
+.frmfieldinv
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 0px;
+    COLOR: #000000;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.error
+{
+    FONT-SIZE: 12px;
+    COLOR: #dd0000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.errorbg
+{
+    BACKGROUND-COLOR: #dd0000
+}
+.warning
+{
+    FONT-SIZE: 12px;
+    COLOR: #dd0000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #FFFFFF
+}
+.warningbg
+{
+    BACKGROUND-COLOR: #FFFF99;
+    BORDER: 1px solid #dd0000;
+}
+.info
+{
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #FFFFFF
+}
+.infobg
+{
+    BACKGROUND-COLOR: #3300CC;
+}
+.frmfieldcount
+{
+    BORDER-RIGHT: #ffffff 0px;
+    BORDER-TOP: #ffffff 0px;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #ffffff 0px;
+    COLOR: #929292;
+    BORDER-BOTTOM: #ffffff 0px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.tblcellselected
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #cccccc
+}
+.bomsubrow
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #dddddd
+}
+.bomdescription
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9px;
+    TEXT-TRANSFORM: none;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-VARIANT: normal;
+    TEXT-DECORATION: none
+}
+.bomcell
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.bomcell_red
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ef9999
+}
+.bomfield
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.bomsubrow_red
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ef9999
+}
+.bomsubrow_green
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #99cd33
+}
+.folderselected
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #0e2571
+}
+.sectionborder
+{
+    BORDER-RIGHT: black 0px solid;
+    BORDER-TOP: #666666 1px solid;
+    BORDER-LEFT: black 0px solid;
+    BORDER-BOTTOM: black 0px solid
+}
+.paddingdiv
+{
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 5px;
+    PADDING-TOP: 5px
+}
+.tinttblcellbl
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, SansSerif;
+    BACKGROUND-COLOR: #e6e9f3
+}
+.workflow
+{
+    FONT-SIZE: 9px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.bomH0
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-DECORATION: underline
+}
+.bomH1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13px;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-DECORATION: underline
+}
+.bomH2
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 13px;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-DECORATION: underline
+}
+.bomH3
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 13px;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-DECORATION: underline
+}
+.bomH4
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-DECORATION: underline
+}
+.bomH5
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-DECORATION: underline
+}
+.bomtotal
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.bomsub
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    COLOR: #999999;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.action_hl
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #bbde99
+}
+.bgLoginSquare
+{
+    COLOR: #ff7e00;
+    BACKGROUND-COLOR: #e9e9e9
+}
+.loginhead1
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 24px;
+    COLOR: #f55f13;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.loginhead2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    COLOR: #2e1581;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.logintext
+{
+    FONT-SIZE: 11px;
+    COLOR: #7d7569;
+    FONT-FAMILY: Verdana
+}
+.loginlink
+{
+    FONT-SIZE: 11px;
+    COLOR: #7d7569;
+    FONT-FAMILY: Verdana
+}
+.errormsg
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    COLOR: red;
+    FONT-FAMILY: Verdana, Arial, helvetica
+}
+.tblcellyellow
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffee66
+}
+.tblcellgreen
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #00bc04
+}
+.paratextgrey
+{
+    FONT-SIZE: 11px;
+    COLOR: #6a759a;
+    FONT-FAMILY: Verdana, Arial
+}
+.linkdarkgreen
+{
+    FONT-SIZE: 11px;
+    COLOR: #2e8b57;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.paratextwhite
+{
+    FONT-SIZE: 11px;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Arial
+}
+.tblcelllightred
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffcccc
+}
+
+.instructionClass
+{
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 14px;
+	COLOR: #000000;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #ffffff
+}
