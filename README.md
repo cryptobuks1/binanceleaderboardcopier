@@ -34,33 +34,33 @@ username : <b>admin</b><br>
 pass: <b>hello_world_01</b><br>
 
 There 2 modes for the bots : admin mode and vps mode.<br>
-First you have to configure some params in the admin mode.
-3 things need to be configured : Tradable pairs,Create API and global parameters
+First you have to configure some params in the admin mode.<br>
+3 things need to be configured : Tradable pairs,Create API and global parameters<br>
 
 <b>1.Tradable Pairs</b><br>
-I have already added 118 coins (The full tradable coins under the futures section)
-In case binance listed new coins for the futures section
-You can add the coin abbr : ex ETH,BTC,XRP,ADA (Make sure its uppercase)
-Coin Name : The coin full name
-Coin Digits : The decimal place
-and you can also upload coin image ( optional)
+I have already added 118 coins (The full tradable coins under the futures section)<br>
+In case binance listed new coins for the futures section<br>
+You can add the coin abbr : ex ETH,BTC,XRP,ADA (Make sure its uppercase)<br>
+Coin Name : The coin full name<br>
+Coin Digits : The decimal place<br>
+and you can also upload coin image ( optional)<br>
 
 
 <b>2.Create API</b><br>
-Creating API KEY and SECRET KEY
-Log into your Binance account and go to the account settings -> API Management page where you can create a new API key.
-make sure you enable 'Enable Trading', and 'Enable Futures' are enabled.
-Once your keys are created, make a note of the API Key and Secret Key.
-Transfer some USDT balance from spot to futures.
+Creating API KEY and SECRET KEY<br>
+Log into your Binance account and go to the account settings -> API Management page where you can create a new API key.<br>
+make sure you enable 'Enable Trading', and 'Enable Futures' are enabled.<br>
+Once your keys are created, make a note of the API Key and Secret Key.<br>
+Transfer some USDT balance from spot to futures.<br>
 
-Click on add API and KEY :
-client email (enter your email or username here)
-client pass(enter your password here)
-binance api key : paste the api key here
-binance secret key : paste the secret key here
-binance leverage : enter the leverage here ( I recommend 2)
-Binance lot amout per trade : input here your capital divided per 13
-keep the last field 1 (this mean enable futures yes (1) no (0))
+Click on add API and KEY :<br>
+client email (enter your email or username here)<br>
+client pass(enter your password here)<br>
+binance api key : paste the api key here<br>
+binance secret key : paste the secret key here<br>
+binance leverage : enter the leverage here ( I recommend 2)<br>
+Binance lot amout per trade : input here your capital divided per 10<br>
+keep the last field 1 (this mean enable futures yes (1) no (0))<br>
 
 
 <b>3.Global Parameters (The most import section)</b><br>
@@ -71,18 +71,39 @@ Then click USD-M Futures<br>
 Check User sharing position<br>
 Time interval : All (recommended)
 Click on any trader you like url will look like this :<br>
-https://www.binance.com/en/futures-activity/leaderboard?type=myProfile&tradeType=PERPETUAL&encryptedUid=9745A111F31F836D6D2E9F758DA3A07B
-I really like this trader and I am mirroring it on my own account (100% growth in 2 months)
+https://www.binance.com/en/futures-activity/leaderboard?type=myProfile&tradeType=PERPETUAL&encryptedUid=9745A111F31F836D6D2E9F758DA3A07B<br>
+I really like this trader and I am mirroring it on my own account (100% growth in 2 months only)<br>
 paste the string after "encryptedUid=" into param_copyingsrc
 <br>
-param_max_loss_percentage : I recommend the default I set which is 5
-param_max_profit_percentage : I recommend the default I set which is 7
-param_on_profit_freeze_hours : 2(default)
-param_on_loss_freeze_hours: 4(default)
-param_on_client_close_all_trades_freeze_hours : 2 (default)
+param_max_loss_percentage : I recommend the default I set which is 5<br>
+param_max_profit_percentage : I recommend the default I set which is 7<br>
+param_on_profit_freeze_hours : 2(default)<br>
+param_on_loss_freeze_hours: 4(default)<br>
+param_on_client_close_all_trades_freeze_hours : 2 (default)<br>
 <br>
 NB: robot will freeze x hours when SL or TP are hitten <br>
+Make sure that under Features >> Preferences : Position Mode Setting is set to One Way mode not Hedge Mode<br>
+<br>
+After the setup of the admin panel , you can logout and then login and choose the vps mode<br>
+Enable to show popup at to right of chrome so bot will start copying the positions , and leave the vps mode running on vps.<br>
 
+I also recommend to use this extension : <a href='https://chrome.google.com/webstore/detail/easy-auto-refresh/aabcgdmkeabbnleenpncegpcngjpnjkc?hl=en'>Easy auto refresh</a><br>
+Enable it and set the refresh time to 600 seconds.<br>
+
+<br>
+Any donation is accepted 🙁 <br>
+It really taked a lot of time to code this Bot .<br>
+You can also use my referral ID (If not already registred on binance) :<br>
+https://accounts.binance.com/en/register?ref=39750507<br>
+ADA address:<br>
+DdzFFzCqrhsnce5Ufx3VEoh5pUrEFssxGc81LHDVLtNcj5CzDc39Z7dRkjugoQMP9NvYMVAQnWuUn7uzpwvmijVv8XBu9X9PSoYRbJWG<br>
+BTC address:<br>
+1KxiArHuQ2xT2eQRhwd3kKkfr4vY8oyuD<br>
+DOT address:<br>
+14oXb3bLRZEdqgbxvhiSuCb4Jjkc78FuX9yhj3s6pPw53aWZ<br>
+ETH address:<br>
+0xd35a8505c6b9750913ebef8f158baa83ab51df57<br>
+I really apperciate any donation 😘<br>
 
 
 
