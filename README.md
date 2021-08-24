@@ -1,5 +1,5 @@
 # binanceleaderboardcopier
-<b>Binance Leaderboard auto copier</b>
+<b>Binance Leaderboard Copier</b>
 <br>
 <i>Automated cryptocurrency trading bot</i>
 
