@@ -1,1 +1,0 @@
-Advanced Binance LeaderBoard Copier
